@@ -3,7 +3,13 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        {/* Add the Google Fonts link for Ubuntu */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <body>
         <Main />
         <NextScript />
@@ -11,3 +17,4 @@ export default function Document() {
     </Html>
   );
 }
+
